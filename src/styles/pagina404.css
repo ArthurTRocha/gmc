@@ -1,0 +1,16 @@
+.pagina404 {
+    max-width: 2000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pagina404 h1 {
+    color: #ff3131;
+}
+.pagina404 img {
+    object-fit: cover;
+    max-width: 80%;
+}

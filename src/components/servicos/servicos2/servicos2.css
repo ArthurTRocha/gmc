@@ -1,0 +1,93 @@
+.servicos2 {
+    background-color: #FF3131;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.servicoss2 {
+    max-width: 1300px;
+    margin: auto;
+}
+.servicos2TextosImages {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 100%;
+    margin-left: 2%;
+}
+.servicos2TextosImages p {
+    width: 100%;
+    margin-top: 20px;
+}
+.iconeNadaServicos2  {
+    max-width: 50%;
+}
+.iconNadaServicos2 {
+    max-width: 3%;
+}
+.cardsServicos2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 35px;
+}
+.card1Servico { 
+    background-color: #fff;
+    color: #FF3131;
+    display:flex ;
+    align-items: center;
+    width: 15%;
+    border-radius: 0.8vh;
+    padding: 1ch;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+
+}
+.card2Servico { 
+    background-color: #fff;
+    color: #FF3131;
+    display:flex ;
+    align-items: center;
+    width: 15%;
+    border-radius: 0.8vh;
+    padding: 1ch;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+
+}
+.card3Servico { 
+    background-color: #fff;
+    color: #FF3131;
+    display:flex ;
+    align-items: center;
+    width: 15%;
+    border-radius: 0.8vh;
+    padding: 1ch;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 768px) {
+    .servicos2TextosImages {
+        flex-direction: column;
+    }
+    .iconNadaServicos2 {
+        display: none;
+    }
+    .card1Servico {
+        display: none;
+    }
+    .card3Servico {
+        display: none;
+    }
+    .card2Servico {
+        width: 50%;
+    }
+    .iconeNadaServicos2  {
+        max-width: 100%;
+    }
+}

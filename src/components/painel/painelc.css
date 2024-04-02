@@ -1,0 +1,29 @@
+.painel {
+    margin: auto;
+    max-width: 2000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.buttonPainel {
+    border: none;
+    background-color: #ff3131;
+    border-radius: 2vh;
+    font-size: 2ch;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    margin-top: 1vh;
+    cursor: pointer;
+}
+.sairpainel {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    border: none;
+    background-color: transparent;
+    font-size: 5ch;
+    cursor: pointer;
+    z-index: 10;
+}

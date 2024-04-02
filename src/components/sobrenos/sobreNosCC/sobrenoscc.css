@@ -1,0 +1,59 @@
+.sobreNosCC {
+    background-color: #ff3100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.sobreNosCCC {
+    margin: auto;
+    max-width: 1300px;
+}
+.sobreNosCCC {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sobreNosCCC p {
+    text-align: center;
+}
+.sobreNosCCC img {
+    margin-bottom: 15px;
+}
+.card1SobreNos,
+.card2SobreNos,
+.card3SobreNos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card2SobreNos img{ 
+    transform: rotate(90deg);
+
+}
+.card3SobreNos img{
+    transform: scaleX(-1);
+}
+.carouselSobreNosM {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .carouselSobreNosM {
+        display: block;
+    }
+    .sobreNosCCC {
+        display: none;
+    }
+    .card1SobreNos img{
+        margin-bottom: 15px;
+    }
+    .card2SobreNos img{
+        margin-bottom: 15px;
+    }
+    .card3SobreNos img{
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,76 @@
+.produto {
+    margin: auto;
+    max-width: 2000px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5vh;
+}
+.buttonCadastrarProduto {
+    width: 100%;
+}
+.produto button {
+    border: none;
+    background-color: #ff3131;
+    border-radius: 2vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 2ch;
+    color: #fff;
+    cursor: pointer;
+}
+.buttonCadastrarProduto button {
+    border: none;
+    color: #fff;
+    background-color: #ff3131;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 2ch;
+    border-radius: 2vh;
+    cursor: pointer;
+    margin-top: 2vh;
+}
+.inputProduto1 input{
+    width: 50%;
+}
+.inputProduto2 input{
+    width: 50%;
+    height: 8vh;
+}
+.inputProduto1 {
+    margin-top: 2vh;
+}
+.inputProduto1 select {
+    text-align: center;
+    width: 50%;
+    cursor: pointer;
+}
+.inputProduto2 {
+    margin-top: 3vh;
+}
+.inputProduto3 input{
+    cursor: pointer;
+}
+.listaprodutos {
+    margin-top: 10%;
+}
+.listaprodutos li {
+    margin-top: 5%;
+    border-bottom: 0.1vh solid #ff3131;
+    padding-bottom: 1vh;
+}
+.listaprodutos button {
+    border: none;
+    background-color: #ff3131;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 2ch;
+    border-radius: 2vh;
+    margin-left: 15px;
+    margin-top: 1vh;
+    color: #fff;
+    cursor: pointer;
+}
+.listaprodutos strong {
+    color: #ff3131;
+}

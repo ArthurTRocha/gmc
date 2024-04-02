@@ -1,0 +1,81 @@
+.contato {
+    max-width: 2000px;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.conteinerContato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cardContato {
+    border-left: 1vw solid #ff3131;
+    border-radius: 2vh;
+    width: 40%;
+}
+.cardContato h3 {
+    display: flex;
+    align-items: center;
+    padding-left: 1vh;
+}
+.iconeContato {
+    font-size: 3ch;
+    margin-right: 1%;
+}
+.redesociaisContato {
+    display: flex;
+    gap: 20px;
+}
+.redesociaisContato a {
+    color: #000;
+}
+.iconContato {
+    font-size: 5ch;
+    margin-top: 15%;
+    cursor: pointer;
+}
+.iconContato:hover {
+    transform: scale(1.2);
+}
+.textoContato {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.textoContato p {
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width:768px) {
+    .textoContato p {
+        width: 80%;
+        margin-top: 2%;
+        margin-bottom: 8%;
+        text-align: left;
+        margin-left: 5%;
+    }
+    /* .redesociaisContato {
+        display: none;
+    } */
+    .cardContato {
+        width: 100%;
+    }
+}
+@media screen and (max-width:355px) { 
+    .iconeContato {
+        display: none;
+    }
+    .cardContato {
+        display: none;
+    }
+}
+@media screen and (max-width:255px) { 
+    .iconContato {
+        font-size: 2ch;
+    }
+}

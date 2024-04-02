@@ -1,0 +1,102 @@
+.divPaiIntroducao{
+    margin: auto;
+    max-width: 2000px;
+}
+
+.conteinerIntroducao{
+    margin-top: 1%;
+    margin-bottom: 5% ;
+    height: auto;
+    border: 1vw solid #FF3131;
+    border-left: 0;
+    border-bottom:0 ;
+    border-top:0 ;
+    border-radius:  0 2vw  2vw 0;
+
+}
+
+.conteinerLogo {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+}
+
+.logo{
+    max-width: 30%;
+    object-fit: cover;
+}
+
+.conteinertituloIntroducao{
+    display: flex;
+    max-width: 100%;
+}
+ 
+.ConteinerBarraIntroducao{
+    display: flex;
+    width: 30%;
+    align-items: center;
+
+}
+
+
+.baraIntroducao{
+    border: 4px solid  black;
+    width: 60%;
+    height: 0;
+    margin-right: 4px;
+    border-radius: 0 50px 50px 0;
+  
+
+}
+.engrenagem {
+    max-height: 50%; 
+    margin: 0;
+    margin-left: -45px;
+                      
+}
+
+.tituloIntroducao{
+    width: 100%;
+    text-align: center;
+    margin-right: 20%;
+    
+}
+
+.TextoIntroducao{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.conteinerListaIntrducao{
+    display: flex;
+    align-items: center;
+    margin-left: 12%;
+}
+
+.uiBlackIntroducao{
+    width: 3vh;
+    height: 3vh;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 2%;
+}
+.uiRedIntroducao{
+    width: 3vh;
+    height: 3vh;
+    background-color: #FF3131;
+    border-radius: 50%;
+    margin-right: 2%;
+}
+.listaIntroducao {
+    flex-direction: column;
+    gap: 15px;
+    display: flex;
+    margin-top: 5%;
+}
+@media screen and (max-width:768px) {
+    .logo {
+        max-width: 80%;
+    }
+}

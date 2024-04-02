@@ -1,0 +1,15 @@
+
+.headerPM {
+    display: none;
+}
+
+
+
+@media screen and (max-width:768px){
+    .headerPM {
+        display: block;
+    }
+    .headerP {
+        display: none;
+    }
+}

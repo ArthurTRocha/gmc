@@ -1,0 +1,128 @@
+.pecasH {
+    max-width: 2000px;
+    margin: auto;
+    background-color: #000;
+    border-top: 3px solid #FF3131;
+}
+.textosPecasH span{
+color: #FF3131;
+}
+.textosPecasH2 span{
+    color: #FF3131;
+}
+.textosPecasH h2{
+    width: 70%;
+    color: #fff;
+    margin-bottom: 5vh;
+}
+.textosPecasH2 h2{
+    width: 70%;
+    border-top: 1vh solid #FF3131;
+    margin-top: 5vh;
+    padding-top: 4vh;
+}
+.textoCarouselPecasH {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imageMarteloTexto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.imageMarteloTexto img {
+    max-width: 10%;
+}
+.card1PecasH {
+    height: 100px;
+    width: 100px;
+}
+.carouselPecasSwiper {
+    height: 400px;
+    width: 400px;
+}
+
+.carouselPecasSwiper p {
+    color: #000;
+}
+.carouselPecasSwiper {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-left-radius: 4vh;
+    border-bottom-left-radius: 4vh;
+}
+.baraIntroducao2 {
+    border: 4px solid #fff;
+    width: 50%;
+    height: 0;
+    margin-right: 4px;
+    border-radius: 0 50px 50px 0;
+}
+.card1PecasH p,
+.card2PecasH p,
+.card3PecasH p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.card1PecasH h3,
+.card2PecasH h3,
+.card3PecasH h3{ 
+    width: 100%;
+    text-align: center;
+}
+.card1PecasH img,
+.card2PecasH img,
+.card3PecasH img{ 
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+}
+.buttonPecasH button {
+    background-color: transparent;
+    border: 0.1vh solid #FF3131;
+    cursor: pointer;
+    color: #FF3131;
+    font-weight: bold;
+    font-size: 1.7ch;
+    border-radius: 2vh;
+    padding: 1vh;
+}
+.buttonPecasH button{
+    position: relative;
+    left: 71%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+@media screen and (max-width:768px) {
+    .textoCarouselPecasH {
+        flex-direction: column;
+    }
+    .carouselPecasSwiper {
+        border-radius: 2vh;
+    }
+    .carouselPecasSwiper {
+        width: 85%;
+    }
+    .imageMarteloTexto img {
+       display: none;
+    }
+    .textosPecasH h2{
+        width: 100%;
+    }
+    .imageMarteloTexto {
+        margin-bottom: 15px;
+    }
+    .buttonPecasH button{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}

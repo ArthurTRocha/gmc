@@ -1,0 +1,19 @@
+.carouselFotosM img,
+.carouselFotos1M img,
+.carouselFotos2M img,
+.carouselFotos3M img,
+.carouselFotos4M img{
+    object-fit: cover;
+    max-width: 100%;
+}
+.carouselSobreNosM {
+    margin: auto;
+    max-width: 200px;
+}
+.carouselFotosM ,
+.carouselFotos1M ,
+.carouselFotos2M ,
+.carouselFotos3M ,
+.carouselFotos4M {
+    max-width: 100%;
+}

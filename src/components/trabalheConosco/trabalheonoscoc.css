@@ -1,0 +1,51 @@
+.trabalheConoscoc {
+    position: relative;
+    max-width: 1700px;
+    margin: auto;
+}
+.trabalheConoscoCCCC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.textosTrabalheConosco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2%;
+}
+.textosTrabalheConosco h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.textosTrabalheConosco p {
+    width: 50%;
+    margin: 20px;
+}
+.tracoTrabalheConosco {
+    position: absolute;
+    left: 0;
+    top: 65%;
+    width: 40%;
+    height: 5px;
+    background-color: #ff3131;
+    border-radius: 2vh;
+}
+.textos2TrabalheConosco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textos2TrabalheConosco p {
+    text-align: center;
+    width: 80%;
+    margin-top: 60px;
+    font-weight: bold;
+}
+@media screen and (max-width:768px) {
+    .textosTrabalheConosco p { 
+        width: 100%;
+    }
+}

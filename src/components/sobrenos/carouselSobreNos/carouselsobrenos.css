@@ -1,0 +1,12 @@
+.carouselFotos img,
+.carouselFotos1 img,
+.carouselFotos2 img,
+.carouselFotos3 img,
+.carouselFotos4 img{
+    object-fit: cover;
+    max-width: 70%;
+}
+.carouselSobreNos {
+    margin: auto;
+    max-width: 1000px;
+}

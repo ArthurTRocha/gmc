@@ -1,0 +1,100 @@
+.header {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(2px);
+    width: 100%;
+    position: relative;
+}
+.header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 80px 60px 0;
+    border-color: transparent #ff3131 transparent transparent; /* Mude a ordem das cores */
+    border-style: solid;
+}
+
+.headerr {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logoHeader img {
+    object-fit: cover;
+    max-width: 60%;
+}
+.opcoesHeader {
+    display: flex;
+    gap: 50px;
+    color: #fff;
+    font-weight: bold;
+}
+.opcoesHeader a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Span */
+.opcoesHeader span {
+    position: relative;
+    cursor: pointer;
+}
+
+.opcoesHeader span::after {
+    content: "";
+    position: absolute;
+    top: -17px;
+    left: 8px;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background: url("../../assets/images/hoverheader.png") no-repeat;
+    background-size: cover;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.opcoesHeader span:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+.opcoesHeader span:hover {
+    color: #ff3131;
+}
+
+
+
+
+
+/* Link */
+.opcoesHeader a {
+    position: relative;
+    cursor: pointer;
+}
+
+.opcoesHeader a::after {
+    content: "";
+    position: absolute;
+    top: -17px;
+    left: 8px;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background: url("../../assets/images/hoverheader.png") no-repeat;
+    background-size: cover;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.opcoesHeader a:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+.opcoesHeader a:hover {
+    color: #ff3131;
+}

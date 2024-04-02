@@ -1,0 +1,117 @@
+.footer {
+    background-color: #000;
+    position: relative;
+    border-top: 3dvh solid #ff3131 ;
+    width: 100%;
+    min-height: 200px;
+}
+.footerrr {
+    margin: auto;
+    max-width: 1400px;
+    padding-top: 15px;
+}
+.footer p, span {
+    color: #fff;
+}
+.footerr {
+    display: flex;
+    justify-content: space-between;
+}
+.opcoesFooter {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+}
+.opcoesFooter a {
+    text-decoration: none;
+    color: #fff;
+}
+.parteFinalFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.parteFinalFooter p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1ch;
+}
+.parteFinalFooter img {
+    max-width: 5%;
+    object-fit: cover;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+.redesociaisFooter {
+    display: flex;
+    gap: 15px;
+}
+.opcoesFooter a:hover {
+    transform: scale(1.1);
+}
+.buttonIMGFooter img {
+    max-width: 100%;
+    object-fit: cover;
+}
+.buttonIMGFooter {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+  }
+  .ladodireitoFooter {
+    margin-left: 2%;
+  }
+  .ladoesquerdo {
+    margin-right: 2%;
+  }
+  .parteFinalFooterP {
+    margin-left: 2%;
+  }
+  .parteFinalFooterPD {
+    margin-right: 2%;
+  }
+.parteFinalFooterPM {
+    display: none;
+}
+.iconeFooter {
+    font-size: 2em;
+    color: #fff;
+    cursor: pointer;
+}
+.iconeFooter:hover {
+    transform: scale(1.2);
+}
+  @media screen and (max-width: 768px) {
+    .parteFinalFooter  {
+        flex-direction: column;
+    }
+    .parteFinalFooterPM {
+        display: block;
+    }
+    .parteFinalFooterP {
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 400px) { 
+    .footerr {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .opcoesFooter {
+        text-align: center;
+    }
+    .redesociaisFooter {
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .parteFinalFooter {
+        text-align: center;
+    }
+    .buttonIMGFooter {
+        margin-top: 15px;
+    }
+  }

@@ -1,0 +1,41 @@
+.servicos1 {
+    max-width: 1800px;
+    margin: auto;
+    position: relative;
+    min-height: 150px;
+}
+.textosServicos1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.textosServicos1 p {
+    width: 70%;
+    margin-top: 1%;
+}
+.tracoSimboloServico1 img {
+    transform: rotate(180deg);
+    position: absolute;
+    left: 80%;
+    max-width: 70%;
+}
+.tracoSimboloServico1 {
+    width: 10%;
+    background-color: #000;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    border-radius: 1vh;
+}
+
+@media screen and (max-width: 768px) {
+    
+}

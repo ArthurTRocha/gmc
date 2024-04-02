@@ -1,0 +1,66 @@
+.headerM {
+    width: 100%;
+    min-height: 25px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    z-index: 100;
+    border-bottom: 2px solid #ff3100;
+  }
+.IconMenuHeaderMobile {
+    cursor: pointer;
+    max-width: 10%;
+    object-fit: cover;
+    padding: 2px;
+}
+.mobileMenu {
+    position: fixed;
+    top: 45px;
+    left: 0;
+    max-width: 100%; /* Ajuste conforme necessário */
+    min-height: 100%;
+    max-height: 100%;
+    border-right: 5px solid #ff3100;
+    background-color: #fff;
+    z-index: 100;
+    padding-bottom: 5dvh;
+  }
+  .mobileMenu li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+  }
+  .mobileMenu a,
+  .mobileMenu span {
+      color: #000;
+      font-size: 6vw;
+      text-decoration: none;
+      font-weight: bold;
+  }
+  
+  .mobileMenu span {
+      font-weight: normal; /* Remove o possível negrito */
+  }
+  .redesociaisHeaderM {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-top: 0.5vh solid #ff3100;
+    margin-top: 20%;
+  }
+  .iconContatoHM {
+    font-size: 3ch;
+    margin-top: 30px;
+  }
+  .logoHeaderMobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .logoHeaderMobile img {
+    object-fit: cover;
+    max-width: 100%;
+  }

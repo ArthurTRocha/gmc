@@ -1,0 +1,200 @@
+.bunerr {
+    max-width: 2000px;
+    margin: auto;
+    position: relative;
+}
+.bunerrTextos h1{
+    color: #fff;
+    border-bottom: 1vh solid #ff3131;
+    margin-left: 3%;
+    width: 35%;
+    font-size: 5ch;
+    padding-top: 2%;
+}
+.bunerrTextos p {
+    color: #fff;
+    margin-left: 3%;
+    width: 50%;
+    margin-top: 3%;
+}
+.bunerrTextos span {
+    color: #ff3131;
+}
+.buttonBunerr {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.butaoBunerr {
+    background-color: transparent;
+    color: #ff3131;
+    font-weight: bold;
+    border: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 0.1vh solid #ff3131;
+    border-radius: 5vh;
+    font-size: 1.7ch;
+    margin-right: 5%;
+    cursor: pointer;
+}
+.butaoBunerr:hover {
+    transform: scale(1.1);
+}
+.butaoBunerr1 {
+    background-color: #ff3131;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5vh;
+    font-size: 1.7ch;
+    cursor: pointer;
+}
+.butaoBunerr1:hover {
+    transform: scale(1.1);
+}
+.cardsBunerr {
+    margin-left: 3%;
+    display: flex;
+    gap: 20px;
+    margin-top: 5%;
+    color: #fff;
+}
+.cardBunerr {
+    background-color: #ff3131;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2vh;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 1%;
+    width: 13%;
+    text-align: center;
+}
+.card1Bunerr {
+    background-color: #ff3131;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2vh;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 1%;
+    width: 13%;
+    text-align: center;
+}
+.card2Bunerr {
+    background-color: #ff3131;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2vh;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 1%;
+    width: 13%;
+    text-align: center;
+}
+.iconeBunerr {
+    display: flex;
+    gap: 150px;
+    color: #fff;
+    font-size: 5ch;
+    padding: 1vh;
+    cursor: pointer;
+}
+.iconeBunerr:hover {
+    transform: scale(1.1);
+}
+.redesSociaisBunerr {
+    position:absolute;
+    right:2px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top: 0.1vh solid #ff3131;
+    border-left: 0.1vh solid #ff3131;
+    border-bottom: 0.1vh solid #ff3131;
+    border-radius: 2vh;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .bunerrTextos h1{
+        color: #fff;
+        border-bottom: 1vh solid #ff3131;
+        margin-left: 3%;
+        width: 95%;
+        font-size: 5ch;
+        padding-top: 2%;
+    }
+    .bunerrTextos p {
+        color: #fff;
+        margin-left: 3%;
+        width: 97%;
+        margin-top: 3%;
+    }
+    .redesSociaisBunerr {
+        display: none;
+    }
+    .buttonBunerr {
+        width: 100%;
+    }
+    .cardBunerr {
+        background-color: #ff3131;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 2vh;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        padding-top: 1%;
+        width: 33%;
+        text-align: center;
+    }
+    .card1Bunerr {
+        background-color: #ff3131;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 2vh;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        padding-top: 1%;
+        width: 33%;
+        text-align: center;
+    }
+    .card2Bunerr {
+        background-color: #ff3131;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 2vh;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        padding-top: 1%;
+        width: 33%;
+        text-align: center;
+    }
+    .cardsBunerr {
+        margin-left: 0%;
+        display: flex;
+        gap: 5px;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .cardsBunerr {
+        display: none;
+    }
+}

@@ -1,0 +1,148 @@
+.pecasv {
+    max-width: 2000px;
+    margin: auto;
+    position: relative;
+}
+.textosPecasV {
+    text-align: center;
+}
+.iconePecasV {
+    font-size: 5ch;
+    color: #ff3131;
+    margin-right: 2%;
+}
+.inputBuscaPecasV {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    padding-top: 20px;
+}
+.inputBuscaPecasV input{
+   border-radius: 2vh;
+    text-decoration: none;
+    min-height: 1em;
+    padding-left: 2%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.inputBuscaPecasV button {
+    border: none;
+    border-radius: 2vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 2ch;
+    cursor: pointer;
+    background-color: #ff3131;
+    color: #fff;
+    margin-left: 1%;
+}
+.pecasPecasV {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 16px; 
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.peca1pecasV p{
+    margin-top: 13px;
+}
+.peca1pecasV {
+    border-right: 1vh solid #ff3131;
+    position: relative;
+    padding-bottom: 70px;
+}
+.categoriasCategoriasV {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+  }
+.inputBuscaPecasVM {
+    display: none;
+}
+.pecasPecasV a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+.pecasPecasV button {
+    background-color: #000;
+    border: none;
+    border-radius: 2vh;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    cursor: pointer;
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+}
+.pecasPecasV h2 {
+    text-align: center;
+    color: #000;
+}
+
+@media screen and (max-width:910px) {
+    .pecasPecasV {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 16px; 
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:890px) {
+
+    .inputBuscaPecasVM {
+        display: block;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .inputBuscaPecasVM input{
+        border-radius: 2vh;
+         text-decoration: none;
+         min-height: 1em;
+         padding-left: 2%;
+         padding-top: 5px;
+         padding-bottom: 5px;
+     }
+     .inputBuscaPecasVM button {
+         border: none;
+         border-radius: 2vh;
+         padding-left: 15px;
+         padding-right: 15px;
+         font-size: 2ch;
+         cursor: pointer;
+         background-color: #ff3131;
+         color: #fff;
+         margin-left: 1%;
+     }
+    .inputBuscaPecasV {
+        display: none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .pecasPecasV {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 16px; 
+        text-align: center;
+    }
+    .peca1pecasV {
+        border: none;
+        border-top: 0.5vh solid #ff3131;
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 365px) {
+    .inputBuscaPecasVM {
+        display: none;
+    }
+}

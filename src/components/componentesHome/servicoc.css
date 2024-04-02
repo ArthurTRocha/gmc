@@ -1,0 +1,109 @@
+.servicoc {
+    margin: auto;
+    max-width: 2000px;
+    position: relative;
+    min-height: 700px;
+}
+.textoServicoC {
+    color: #fff;
+    margin-left: 3%;
+    padding-top: 8%;
+}
+.textoServicoC p{
+    width: 45%;
+    margin-top: 2%;
+}
+.buttonServicoC {
+    border: none;
+    background-color: #000;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    font-size: 2ch;
+    color: #fff;
+    border-radius: 2vh;
+    margin-left: 3%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+.simbolotexto {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 3%;
+    margin-top: 4%;
+    position: relative;
+}
+.simbolotexto::before {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    height: 60px;
+    width: 50%;
+    right: 0%;
+    border-bottom-left-radius: 5vh;
+    border-top-left-radius: 5vh;
+    top: 10%;
+}
+.textoSimbolo {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.simbolotexto2 {
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 3%;
+    margin-bottom: 2%;
+}
+
+.simbolotexto2 img{
+    transform: scaleX(-1);
+}
+.textoSimbolo2 {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.unirDivSimboloServicoC {
+    display: flex;
+    justify-content: space-between;
+}
+.corPretaServicoC {
+    background-color: #000;
+    height: 50px;
+    width: 60%;
+    margin-top: 2%;
+    border-top-right-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+}
+@media screen and (max-width:768px) {
+    .textoServicoC {
+        padding-top: 15%;
+    }
+    .textoServicoC p{
+        width: 100%;
+        margin-top: 2%;
+    }
+}
+@media screen and (max-width:970px) { 
+    .simbolotexto::before {
+        display: none;
+    }
+    .corPretaServicoC {
+        display: none;
+    }
+    .simbolotexto2 {
+        position: absolute;
+        right: 2%;
+    }
+}
+@media screen and (max-width:380px) {
+    .textoServicoC h1{
+        margin-top: 80px;
+    }
+}

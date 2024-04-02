@@ -1,0 +1,12 @@
+.painelAdmC {
+    margin: auto;
+    max-width: 2000px;
+    text-align: center;
+}
+.inputPainelAdmC {
+    display: flex;
+    flex-direction: column;
+}
+.inputPainelAdmC button {
+    cursor: pointer;
+}

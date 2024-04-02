@@ -1,0 +1,47 @@
+.pecasc {
+    margin: auto;
+    max-width: 1400px;
+    position: relative;
+    width: 100%;
+}
+.pecascc {
+    display: flex;
+    align-items: center;
+}
+.imagePecas  img {
+    object-fit: cover;
+    max-width: 100%;
+}
+.textoPecasC h1 {
+    font-size: 5ch;
+    width: 70%;    
+}
+.textoPecasC h3 {
+    width: 90%;
+    margin-top: 40px;
+}
+.textoPecasC  {
+    margin-left: 2%;
+}
+.imagePecas {
+    position: relative;
+}
+.marteloPecas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.marteloPecas img{
+    object-fit: cover;
+    max-width: 35%;
+}
+
+@media screen and (max-width: 768px){
+    .pecascc {
+        flex-direction: column;
+    }
+    .textoPecasC h1 {
+        font-size: 3.5ch;
+        width: 100%;    
+    }
+}

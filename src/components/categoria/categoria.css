@@ -1,0 +1,22 @@
+.categoria {
+    max-width: 2000px;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.categoria button {
+    background-color: #ff3131;
+    border: none;
+    border-radius: 2vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 2ch;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.listadeCategorias li {
+    margin-top: 5%;
+    border-top: 0.1vh solid #ff3131;
+}

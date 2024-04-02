@@ -1,0 +1,56 @@
+.oferecemos {
+    margin: auto;
+    max-width: 2000px;
+    background-color: #fff;
+    margin-bottom: 10%;
+}
+.baraIntroducao3 {
+    border: 4px solid #000;
+    width: 50%;
+    height: 0;
+    margin-right: 4px;
+    border-radius: 0 50px 50px 0;
+}
+.card1Oferecemos h3 {
+    border-left: 10vh solid #ff3131;
+    padding-left: 30px;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.card2Oferecemos h3 {
+    margin-bottom: 3%;
+}
+.card2Oferecemos h3 {
+    border-left: 10vh solid #ff3131;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.textosOferecemos h1 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+.textosOferecemos p {
+    width: 45%;
+    margin-left: 2%;
+}
+.divsOferecemos {
+    margin-top: 5%;
+}
+.mensagemOferecemosServicos p {
+    width: 37%;
+    margin-left: 2%;
+}
+.card2Oferecemos {
+    margin-top: 10%;
+}
+
+@media screen and (max-width:768px) {
+    .textosOferecemos p {
+        width: 95%;
+        margin-left: 2%;
+    }
+    .mensagemOferecemosServicos p {
+        width: 100%;
+        margin-left: 2%;
+    }
+}
